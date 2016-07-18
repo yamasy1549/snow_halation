@@ -1,7 +1,7 @@
 require 'twitter'
 require 'dotenv'
 
-Dotenv.load!
+Dotenv.load
 
 TWEET_MAX_SIZE = 140
 SUFFIX_SIZE = 2 # "@".size + " ".size
